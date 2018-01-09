@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		946A72BD1B013F9C00E82259 /* earth120.png in Resources */ = {isa = PBXBuildFile; fileRef = 946A72BC1B013F9C00E82259 /* earth120.png */; };
+		946A72BF1B01402E00E82259 /* earth180.png in Resources */ = {isa = PBXBuildFile; fileRef = 946A72BE1B01402E00E82259 /* earth180.png */; };
+		946A72C21B0171CC00E82259 /* launch2028x1242.png in Resources */ = {isa = PBXBuildFile; fileRef = 946A72C11B0171CC00E82259 /* launch2028x1242.png */; };
+		946A72C41B052B7900E82259 /* RCStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A72C31B052B7900E82259 /* RCStar.swift */; };
+		946A72C61B052B8300E82259 /* RCStarGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A72C51B052B8300E82259 /* RCStarGenerator.swift */; };
+		946A72F51B0A4CBB00E82259 /* Media2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946A72F41B0A4CBB00E82259 /* Media2.xcassets */; };
+		94AC00021AFEDA7000160B7D /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ACFFFF1AFEDA7000160B7D /* alien.png */; };
+		94AC00061AFEDD7B00160B7D /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 94AC00051AFEDD7B00160B7D /* bullet.png */; };
+		94AC000A1AFEE24700160B7D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC00091AFEE24700160B7D /* GameViewController.swift */; };
+		94AC00101AFEE77000160B7D /* RCAlienGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC000F1AFEE77000160B7D /* RCAlienGenerator.swift */; };
+		94AC00121AFEE7ED00160B7D /* RCAlien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC00111AFEE7ED00160B7D /* RCAlien.swift */; };
+		94AC00141AFFD0A500160B7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC00131AFFD0A500160B7D /* Constants.swift */; };
+		94AC00161AFFF05F00160B7D /* RCBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC00151AFFF05F00160B7D /* RCBullet.swift */; };
+		94AC00191AFFF37000160B7D /* RCBulletGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC00181AFFF37000160B7D /* RCBulletGenerator.swift */; };
 		94ACFFDC1AFED9BC00160B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ACFFDB1AFED9BC00160B7D /* AppDelegate.swift */; };
 		94ACFFDE1AFED9BC00160B7D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94ACFFDD1AFED9BC00160B7D /* GameScene.sks */; };
 		94ACFFE01AFED9BC00160B7D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ACFFDF1AFED9BC00160B7D /* GameScene.swift */; };
-		94ACFFE21AFED9BC00160B7D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ACFFE11AFED9BC00160B7D /* GameViewController.swift */; };
 		94ACFFE51AFED9BC00160B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94ACFFE31AFED9BC00160B7D /* Main.storyboard */; };
-		94ACFFE71AFED9BC00160B7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ACFFE61AFED9BC00160B7D /* Images.xcassets */; };
 		94ACFFEA1AFED9BC00160B7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ACFFE81AFED9BC00160B7D /* LaunchScreen.xib */; };
 		94ACFFF61AFED9BC00160B7D /* InvasionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ACFFF51AFED9BC00160B7D /* InvasionTests.swift */; };
+		94E4F5981C4B475D008EA81F /* newearth.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E4F5971C4B475D008EA81F /* newearth.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +41,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		946A72BC1B013F9C00E82259 /* earth120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth120.png; sourceTree = "<group>"; };
+		946A72BE1B01402E00E82259 /* earth180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth180.png; sourceTree = "<group>"; };
+		946A72C11B0171CC00E82259 /* launch2028x1242.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch2028x1242.png; sourceTree = "<group>"; };
+		946A72C31B052B7900E82259 /* RCStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCStar.swift; sourceTree = "<group>"; };
+		946A72C51B052B8300E82259 /* RCStarGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCStarGenerator.swift; sourceTree = "<group>"; };
+		946A72F41B0A4CBB00E82259 /* Media2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media2.xcassets; path = ../Media2.xcassets; sourceTree = "<group>"; };
+		94AC00051AFEDD7B00160B7D /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		94AC00091AFEE24700160B7D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		94AC000F1AFEE77000160B7D /* RCAlienGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCAlienGenerator.swift; sourceTree = "<group>"; };
+		94AC00111AFEE7ED00160B7D /* RCAlien.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCAlien.swift; sourceTree = "<group>"; };
+		94AC00131AFFD0A500160B7D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		94AC00151AFFF05F00160B7D /* RCBullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCBullet.swift; sourceTree = "<group>"; };
+		94AC00181AFFF37000160B7D /* RCBulletGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCBulletGenerator.swift; sourceTree = "<group>"; };
 		94ACFFD61AFED9BC00160B7D /* Invasion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Invasion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ACFFDA1AFED9BC00160B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94ACFFDB1AFED9BC00160B7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94ACFFDD1AFED9BC00160B7D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		94ACFFDF1AFED9BC00160B7D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		94ACFFE11AFED9BC00160B7D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		94ACFFE41AFED9BC00160B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94ACFFE61AFED9BC00160B7D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94ACFFE91AFED9BC00160B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		94ACFFEF1AFED9BC00160B7D /* InvasionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvasionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ACFFF41AFED9BC00160B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94ACFFF51AFED9BC00160B7D /* InvasionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvasionTests.swift; sourceTree = "<group>"; };
+		94ACFFFF1AFEDA7000160B7D /* alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alien.png; sourceTree = "<group>"; };
+		94E4F5971C4B475D008EA81F /* newearth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newearth.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +86,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		946A72C71B052B9B00E82259 /* Stars */ = {
+			isa = PBXGroup;
+			children = (
+				946A72C31B052B7900E82259 /* RCStar.swift */,
+				946A72C51B052B8300E82259 /* RCStarGenerator.swift */,
+			);
+			name = Stars;
+			sourceTree = "<group>";
+		};
+		94AC00171AFFF09000160B7D /* Alien */ = {
+			isa = PBXGroup;
+			children = (
+				94AC000F1AFEE77000160B7D /* RCAlienGenerator.swift */,
+				946A72C71B052B9B00E82259 /* Stars */,
+				94AC00111AFEE7ED00160B7D /* RCAlien.swift */,
+			);
+			name = Alien;
+			sourceTree = "<group>";
+		};
+		94AC001A1AFFF38E00160B7D /* Bullet */ = {
+			isa = PBXGroup;
+			children = (
+				94AC00151AFFF05F00160B7D /* RCBullet.swift */,
+				94AC00181AFFF37000160B7D /* RCBulletGenerator.swift */,
+			);
+			name = Bullet;
+			sourceTree = "<group>";
+		};
 		94ACFFCD1AFED9BC00160B7D = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +135,15 @@
 		94ACFFD81AFED9BC00160B7D /* Invasion */ = {
 			isa = PBXGroup;
 			children = (
-				94ACFFDB1AFED9BC00160B7D /* AppDelegate.swift */,
-				94ACFFDD1AFED9BC00160B7D /* GameScene.sks */,
+				946A72F41B0A4CBB00E82259 /* Media2.xcassets */,
+				94AC00171AFFF09000160B7D /* Alien */,
+				94AC001A1AFFF38E00160B7D /* Bullet */,
+				94AC00131AFFD0A500160B7D /* Constants.swift */,
 				94ACFFDF1AFED9BC00160B7D /* GameScene.swift */,
-				94ACFFE11AFED9BC00160B7D /* GameViewController.swift */,
-				94ACFFE31AFED9BC00160B7D /* Main.storyboard */,
-				94ACFFE61AFED9BC00160B7D /* Images.xcassets */,
 				94ACFFE81AFED9BC00160B7D /* LaunchScreen.xib */,
+				94ACFFDB1AFED9BC00160B7D /* AppDelegate.swift */,
+				94ACFFE31AFED9BC00160B7D /* Main.storyboard */,
+				94AC00091AFEE24700160B7D /* GameViewController.swift */,
 				94ACFFD91AFED9BC00160B7D /* Supporting Files */,
 			);
 			path = Invasion;
@@ -96,6 +152,13 @@
 		94ACFFD91AFED9BC00160B7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94E4F5971C4B475D008EA81F /* newearth.png */,
+				946A72C11B0171CC00E82259 /* launch2028x1242.png */,
+				946A72BE1B01402E00E82259 /* earth180.png */,
+				946A72BC1B013F9C00E82259 /* earth120.png */,
+				94AC00051AFEDD7B00160B7D /* bullet.png */,
+				94ACFFDD1AFED9BC00160B7D /* GameScene.sks */,
+				94ACFFFF1AFEDA7000160B7D /* alien.png */,
 				94ACFFDA1AFED9BC00160B7D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -162,14 +225,19 @@
 		94ACFFCE1AFED9BC00160B7D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Ryan Ching";
 				TargetAttributes = {
 					94ACFFD51AFED9BC00160B7D = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TNYKHNSDV6;
+						LastSwiftMigration = 0820;
 					};
 					94ACFFEE1AFED9BC00160B7D = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 94ACFFD51AFED9BC00160B7D;
 					};
 				};
@@ -199,8 +267,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				94ACFFEA1AFED9BC00160B7D /* LaunchScreen.xib in Resources */,
-				94ACFFE71AFED9BC00160B7D /* Images.xcassets in Resources */,
+				946A72F51B0A4CBB00E82259 /* Media2.xcassets in Resources */,
+				94AC00021AFEDA7000160B7D /* alien.png in Resources */,
+				94AC00061AFEDD7B00160B7D /* bullet.png in Resources */,
+				946A72BF1B01402E00E82259 /* earth180.png in Resources */,
+				94E4F5981C4B475D008EA81F /* newearth.png in Resources */,
 				94ACFFDE1AFED9BC00160B7D /* GameScene.sks in Resources */,
+				946A72BD1B013F9C00E82259 /* earth120.png in Resources */,
+				946A72C21B0171CC00E82259 /* launch2028x1242.png in Resources */,
 				94ACFFE51AFED9BC00160B7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +294,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				94ACFFE01AFED9BC00160B7D /* GameScene.swift in Sources */,
-				94ACFFE21AFED9BC00160B7D /* GameViewController.swift in Sources */,
+				94AC000A1AFEE24700160B7D /* GameViewController.swift in Sources */,
+				94AC00161AFFF05F00160B7D /* RCBullet.swift in Sources */,
 				94ACFFDC1AFED9BC00160B7D /* AppDelegate.swift in Sources */,
+				94AC00121AFEE7ED00160B7D /* RCAlien.swift in Sources */,
+				946A72C41B052B7900E82259 /* RCStar.swift in Sources */,
+				94AC00101AFEE77000160B7D /* RCAlienGenerator.swift in Sources */,
+				94AC00191AFFF37000160B7D /* RCBulletGenerator.swift in Sources */,
+				946A72C61B052B8300E82259 /* RCStarGenerator.swift in Sources */,
+				94AC00141AFFD0A500160B7D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +344,75 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		946A72CC1B0586C100E82259 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		946A72CD1B0586C100E82259 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Invasion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		946A72CE1B0586C100E82259 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InvasionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Invasion.app/Invasion";
+			};
+			name = Distribution;
+		};
 		94ACFFF71AFED9BC00160B7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -350,9 +500,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Invasion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,9 +515,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Invasion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -381,6 +541,7 @@
 				INFOPLIST_FILE = InvasionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Invasion.app/Invasion";
 			};
 			name = Debug;
@@ -396,6 +557,7 @@
 				INFOPLIST_FILE = InvasionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Invasion.app/Invasion";
 			};
 			name = Release;
@@ -408,6 +570,7 @@
 			buildConfigurations = (
 				94ACFFF71AFED9BC00160B7D /* Debug */,
 				94ACFFF81AFED9BC00160B7D /* Release */,
+				946A72CC1B0586C100E82259 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -417,16 +580,20 @@
 			buildConfigurations = (
 				94ACFFFA1AFED9BC00160B7D /* Debug */,
 				94ACFFFB1AFED9BC00160B7D /* Release */,
+				946A72CD1B0586C100E82259 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94ACFFFC1AFED9BC00160B7D /* Build configuration list for PBXNativeTarget "InvasionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94ACFFFD1AFED9BC00160B7D /* Debug */,
 				94ACFFFE1AFED9BC00160B7D /* Release */,
+				946A72CE1B0586C100E82259 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
